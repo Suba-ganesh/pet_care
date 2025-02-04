@@ -1,0 +1,29 @@
+.box {
+    background-color: white;
+    width: 300px;
+    height: max-content;
+    border-radius: 8px;
+    box-shadow: 1px 3px 5px white;
+    padding: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 4% 0% 4% 0%;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box h2 {
+    font-size: 18px;
+}
+
+.box p {
+    line-height: 28px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+
+
+

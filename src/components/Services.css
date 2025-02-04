@@ -1,0 +1,40 @@
+.dog-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+
+
+
+.services-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+
+}
+
+.services-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+
+}
+
+.services-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services-center h1:hover {
+    text-decoration:dotted;
+    text-decoration-color: black;
+    text-decoration-line: underline;
+}
+
+.services-center img {
+    width: 50%;  
+}

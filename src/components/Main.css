@@ -1,0 +1,49 @@
+.main {
+   
+    height: max-content;
+}
+
+.ad {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px 10px 0px;
+    justify-content: space-around;
+}
+
+.but {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ad-left {
+    width: 60%;
+    justify-content: space-around;
+
+}
+
+.ad-left h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.ad-left p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.but {
+    display: flex;
+}
+.ad-right img {
+    width: 100%;
+}
+
+.services {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    gap: 0%;
+    flex-wrap: wrap;
+}

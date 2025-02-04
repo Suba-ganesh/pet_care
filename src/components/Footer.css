@@ -1,0 +1,114 @@
+.footer {
+    margin-top: 10px;
+    background-color:rgb(235, 235, 235);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 4%;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.address img {
+    height: 20px;
+}
+
+.address p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.address li {
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+.address li:hover {
+    text-decoration: underline;
+}
+
+.menu h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu li {
+    list-style:none;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   list-style-image: url("C:\Users\subaganesh\Desktop\React\src\images\edit-2.svg");
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.menu li a:hover {
+    text-shadow: 1px 1px;
+}
+
+.footer-services h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-services li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px;
+    margin-left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-image: url("C:\Users\subaganesh\Desktop\React\src\images\edit-2.svg");
+   
+}
+
+.footer-services li a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.footer-services li a:hover {
+    text-shadow: 1px 1px;
+}
+
+.socialmedia h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.socialmedia li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-image: url("C:\Users\subaganesh\Desktop\React\src\images\edit-2.svg");
+
+
+}
+
+.socialmedia li a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.socialmedia li a:hover {
+    text-shadow: 1px 1px;
+}

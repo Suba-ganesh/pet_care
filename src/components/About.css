@@ -1,0 +1,31 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.about-left {
+    width: 50%;
+}
+
+.about-left h2 {
+    font-size: 40px;
+    text-decoration:underline;
+    text-decoration-color: black;
+}
+
+.about-left h3 {
+    font-size: 30px;
+    color: rgb(23, 111, 23);
+}
+
+.about-right {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.about-right img {
+    width: 100%;
+}
