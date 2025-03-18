@@ -6,6 +6,7 @@
     box-shadow: 1px 3px 5px white;
     padding: 2%;
     margin: 4% 0% 4% 0%;
+    cursor: pointer;
 }
 
 .box:hover {

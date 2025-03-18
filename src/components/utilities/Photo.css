@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     box-shadow: 1px 1px 5px #200000;
+    cursor: pointer;
 }
 
 .photo img {
