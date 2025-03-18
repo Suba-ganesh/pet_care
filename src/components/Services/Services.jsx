@@ -1,7 +1,7 @@
 import React from 'react'
-import Box from './utilities/Box';
-import './Services.css';
-import service_dog from '../images/service_dog.png'
+import Box from '../utilities/Box';
+import './services.css';
+import service_dog from '../../images/service_dog.png';
 
 const Services = () => {
   return (

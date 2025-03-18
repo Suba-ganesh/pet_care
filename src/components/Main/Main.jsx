@@ -1,13 +1,11 @@
 import React from 'react';
 import './Main.css';
-import dog from '../images/dog.png';
-import Button from './utilities/Utilities';
-import Reactprime from './Textbox';
+import dog from '../../images/dog.png';
+import Button from '../utilities/Utilities';
 import 'primeflex/primeflex.css';
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
-import TextBox from './Textbox';
 
 const Main = () => {
   return (

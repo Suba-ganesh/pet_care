@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import footerlogo from '../images/logo.svg';
-import location from '../images/location-filled.svg';
-import phone from '../images/phone.svg';
-import mail from '../images/mail.svg';
+import logo from '../../images/logo.svg';
+import location from '../../images/location-filled.svg';
+import phone from '../../images/phone.svg';
+import mail from '../../images/mail.svg';
 
 
 const Footer = () => {
@@ -12,8 +12,10 @@ const Footer = () => {
 
 
         <div className="address">
-                 <img src={footerlogo} alt="" />
-                 Pet Care
+        <div className='logo'>
+            <img src={logo} alt="" />
+            <p>Pet Care</p>
+        </div>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />quas voluptas itaque molestias animi nesciunt, <br /> quis, eum consequatur maiores fugiat tempora est nam distinctio.</p>
                  <ul>
                    <li><img src={location}  alt='1'/> Coimbatore</li>

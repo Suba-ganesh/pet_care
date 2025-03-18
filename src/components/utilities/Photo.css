@@ -9,8 +9,7 @@
 }
 
 .photo img {
-    height: 120px;
-    width: 120px;
+
     padding: 15px;
 }
 
@@ -26,8 +25,4 @@
 
 .photobox p {
    text-align: center;
-}
-
-.photobox {
-  margin-left: 100px;
 }

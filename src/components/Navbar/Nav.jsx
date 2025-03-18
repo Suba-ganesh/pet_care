@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';
-import logo from '../images/logo.svg';
-import navbar from '../images/menu.svg';
+import logo from '../../images/logo.svg';
+import navbar from '../../images/menu.svg';
 
 const Nav = () => {
   return (
@@ -25,4 +25,4 @@ const Nav = () => {
 
 }
 
-export default Nav
+export default Nav;
