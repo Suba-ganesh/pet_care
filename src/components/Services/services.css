@@ -7,8 +7,6 @@
 }
 
 
-
-
 .services-left {
     display: flex;
     flex-direction: column;
@@ -38,4 +36,47 @@
 
 .services-center img {
     width: 50%;  
+}
+
+@media screen and (max-width: 1024px) {
+    .dog-services {
+        justify-content: center;
+    }
+
+    .services-left,
+    .services-right {
+        width: 45%;
+        text-align: center;
+    }
+
+    .services-center img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dog-services {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .services-left,
+    .services-right {
+        width: 100%;
+    }
+
+    .services-center img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services-center h1 {
+        font-size: 20px;
+    }
+
+    .services-center img {
+        width: 90%;
+    }
 }

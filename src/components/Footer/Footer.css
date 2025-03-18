@@ -114,3 +114,52 @@
 .socialmedia li a:hover {
     text-shadow: 1px 1px;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .address, .menu, .footer-services, .socialmedia {
+        flex: 1 1 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .address, .menu, .footer-services, .socialmedia {
+        width: 100%;
+    }
+
+    .menu h2, .footer-services h2, .socialmedia h2 {
+        font-size: 18px;
+    }
+
+    .menu li, .footer-services li, .socialmedia li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 10%;
+    }
+
+    .menu h2, .footer-services h2, .socialmedia h2 {
+        font-size: 16px;
+    }
+
+    .menu li, .footer-services li, .socialmedia li {
+        font-size: 14px;
+    }
+}

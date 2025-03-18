@@ -26,3 +26,34 @@
 .photobox p {
    text-align: center;
 }
+
+
+@media screen and (max-width: 768px) {
+    .photo {
+        height: 140px;
+        width: 140px;
+    }
+
+    .photobox h2 {
+        font-size: 20px;
+    }
+
+    .photobox p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .photo {
+        height: 120px;
+        width: 120px;
+    }
+
+    .photobox h2 {
+        font-size: 18px;
+    }
+
+    .photobox p {
+        font-size: 14px;
+    }
+}

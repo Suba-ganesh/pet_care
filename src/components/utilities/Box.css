@@ -5,7 +5,6 @@
     border-radius: 8px;
     box-shadow: 1px 3px 5px white;
     padding: 2%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 4% 0% 4% 0%;
 }
 
@@ -21,6 +20,39 @@
     line-height: 28px;
     font-size: 14px;
     text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 90%; /* Make it responsive on tablets */
+        padding: 4%;
+    }
+
+    .box h2 {
+        font-size: 18px;
+    }
+
+    .box p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        width: 95%; /* Take full width on small screens */
+        padding: 5%;
+        margin: 6% auto;
+    }
+
+    .box h2 {
+        font-size: 16px;
+    }
+
+    .box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 
 

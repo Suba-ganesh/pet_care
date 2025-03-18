@@ -11,3 +11,35 @@
     text-align: center;
     margin-left: 20px;
 }
+
+media screen and (max-width: 1024px) {
+    .aboutus-menu {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .aboutus-title {
+        margin-left: 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutus-menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutus-title {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutus-title {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
